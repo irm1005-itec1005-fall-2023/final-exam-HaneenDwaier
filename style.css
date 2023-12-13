@@ -211,7 +211,7 @@ main .content-grid {
 }
 
 .profile-image img {
-  width: 300px; /* Fixed width, adjust as needed */
+  width: 400px; 
   height: auto; /* Maintain aspect ratio */
   border-radius: 25px; /* Rounded corners for the image */
   background-color: #ffc0cb; /* Pink background for the image */
