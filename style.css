@@ -244,3 +244,47 @@ main .content-grid {
 .profile-content button:hover {
   background-color: #ff1493; /* Darker pink on hover */
 }
+.my-work {
+  text-align: center;
+  padding: 40px;
+  background: #fff; /* Assuming a white background */
+}
+
+.my-work h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Creates a responsive grid layout */
+  gap: 20px; /* Space between items */
+  padding: 20px;
+}
+
+.work-item {
+  background: #f8f8f8; /* Light grey background for each item */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Simple box shadow for depth */
+  padding: 20px;
+  transition: transform 0.3s ease; /* Smooth transform transition for hover effect */
+}
+
+.work-item img {
+  width: 100%; /* Make image responsive within container */
+  height: auto;
+  border-radius: 8px; /* Rounded corners for the image */
+}
+
+.work-item h3 {
+  color: #333; /* Dark text for the project title */
+  margin-top: 15px;
+}
+
+.work-item p {
+  color: #666; /* Lighter text for the technologies used */
+}
+
+.work-item:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+}
