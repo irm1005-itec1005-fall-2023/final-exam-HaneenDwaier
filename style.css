@@ -67,3 +67,55 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
+ body {
+  color: #003049;
+  font-family: sans-serif;
+  background-color: #fdf0d5;
+
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+
+  padding: 2rem 0 2rem 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 75px;
+  height: 75px;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 1rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #828282;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+header nav ul li a:hover {
+  color: #003049;
+  background-color: #003049;
+  border-radius: 1rem;
+  transition: 0.5s all ease-in;
+}
+
