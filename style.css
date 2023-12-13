@@ -122,3 +122,8 @@ header nav ul li a:hover {
   transition: 0.5s all ease-in;
 }
 
+main .content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
