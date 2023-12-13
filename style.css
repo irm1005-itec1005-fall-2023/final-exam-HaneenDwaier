@@ -347,3 +347,32 @@ main .content-grid {
 .contact-section button:hover {
   background-color: #333; 
 }
+.site-footer {
+  background-color: #f5f5f5; 
+  color: #333; 
+  text-align: center; 
+  padding: 20px 0; 
+  border-top: 1px solid #ccc; 
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.footer-logo {
+  width: 50px; 
+  height: auto; 
+  margin-bottom: 10px; 
+}
+
+.site-footer p {
+  font-size: 0.9em; 
+  margin-top: 10px; 
+}
