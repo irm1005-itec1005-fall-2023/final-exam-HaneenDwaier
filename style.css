@@ -197,17 +197,17 @@ main .content-grid {
 
 .about-me {
   background-color: #ffc0cb; 
-  border-radius: 25px; /* Rounded corners for the container */
-  width: 800px; /* Fixed width, adjust as needed */
-  margin: 50px auto; /* Center the section */
+  border-radius: 25px; 
+  width: 800px; 
+  margin: 50px auto; 
   display: flex;
   align-items: center;
-  padding: 50px; /* Padding inside the container */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  padding: 50px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .profile-image {
-  margin-right: 50px; /* Space between image and text */
+  margin-right: 50px; 
 }
 
 .profile-image img {
@@ -218,15 +218,15 @@ main .content-grid {
 }
 
 .profile-content h1 {
-  color: #333; /* Dark grey color for the heading */
-  font-size: 2.5em; /* Large font size for the heading */
-  margin-bottom: 20px; /* Space between the heading and paragraph */
+  color: #333; 
+  font-size: 2.5em; 
+  margin-bottom: 20px; 
 }
 
 .profile-content p {
-  color: #666; /* Lighter grey color for the paragraph */
-  font-size: 1.2em; /* Size of the paragraph text */
-  margin-bottom: 20px; /* Space between the paragraph and button */
+  color: #666; 
+  font-size: 1.2em; 
+  margin-bottom: 20px; 
 }
 
 .profile-content button {
