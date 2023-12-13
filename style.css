@@ -127,6 +127,18 @@ main .content-grid {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
 }
+.content-grid {
+  text-align: center;
+  padding-top: 100px; /* Adjust the padding to match the image */
+}
+.hero-content h2 {
+  font-size: 48px; /* Large font size for the main heading */
+  margin-bottom: 20px; /* Space between the heading and paragraph */
+}
+.hero-content p {
+  font-size: 24px; /* Smaller font size for the subheading */
+  color: #666; /* Lighter color for the subheading */
+}
 
 .sr-only {
   position: absolute;
