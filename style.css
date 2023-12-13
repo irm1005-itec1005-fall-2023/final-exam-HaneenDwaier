@@ -13,7 +13,7 @@
  * #ffc8dd - Pink
  * #ffafcc - Light Pink
  * #bde0fe - Light Blue
- * #a2d2ff - Light Blue
+ * #cdb4db - Light Blue
  * #0c0a3e - Dark Purple
  * #797979 - Grey
  *
@@ -127,3 +127,48 @@ main .content-grid {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
 }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.skills-section {
+  background: #f0e7db; /* Background color of the skills section, adjust as needed */
+  padding: 2rem;
+  text-align: center;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.skill-item {
+  flex: 0 1 calc(33.333% - 1rem); /* Adjust the width for each box minus the gap */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px; /* Fixed height for each skill block */
+  margin-bottom: 1rem;
+  color: #0d0954; 
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+.web-development { background-color: #cdb4db; }
+.ui-ux { background-color: #d291bc; }
+.css { background-color: #c51449; }
+.javascript { background-color: #bde0fe ; }
+.html { background-color: #bde0fe; }
+.github { background-color:#cdb4db ; }
