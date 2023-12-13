@@ -184,3 +184,63 @@ main .content-grid {
 .javascript { background-color: #bde0fe ; }
 .html { background-color: #bde0fe; }
 .github { background-color:#cdb4db ; }
+/* sr-only class for screen readers only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.about-me {
+  background-color: #ffc0cb; 
+  border-radius: 25px; /* Rounded corners for the container */
+  width: 800px; /* Fixed width, adjust as needed */
+  margin: 50px auto; /* Center the section */
+  display: flex;
+  align-items: center;
+  padding: 50px; /* Padding inside the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.profile-image {
+  margin-right: 50px; /* Space between image and text */
+}
+
+.profile-image img {
+  width: 300px; /* Fixed width, adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 25px; /* Rounded corners for the image */
+  background-color: #ffc0cb; /* Pink background for the image */
+}
+
+.profile-content h1 {
+  color: #333; /* Dark grey color for the heading */
+  font-size: 2.5em; /* Large font size for the heading */
+  margin-bottom: 20px; /* Space between the heading and paragraph */
+}
+
+.profile-content p {
+  color: #666; /* Lighter grey color for the paragraph */
+  font-size: 1.2em; /* Size of the paragraph text */
+  margin-bottom: 20px; /* Space between the paragraph and button */
+}
+
+.profile-content button {
+  padding: 10px 20px;
+  background-color: #ff69b4; /* Bright pink color for the button */
+  color: white;
+  border: none;
+  border-radius: 20px; /* Rounded corners for the button */
+  cursor: pointer;
+  font-size: 1em;
+  text-transform: uppercase; /* Uppercase text for the button */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for the button */
+}
+
+.profile-content button:hover {
+  background-color: #ff1493; /* Darker pink on hover */
+}
