@@ -288,3 +288,26 @@ main .content-grid {
 .work-item:hover {
   transform: translateY(-5px); /* Slight lift effect on hover */
 }
+.tags {
+  font-family: Arial, sans-serif; /* Or any font of your choice */
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px 15px; /* Adjust the padding to control the size of the tags */
+  margin: 2px; /* Small margin for spacing between tags */
+  background-color: #f28b82; /* The pink background color */
+  color: white; /* Text color */
+  border-radius: 16px; /* Large border radius for pill shape */
+  font-weight: bold; /* Bold font */
+  text-transform: uppercase; /* Uppercase text */
+  font-size: 0.75em; /* Smaller font size */
+}
+
+.tag.html {
+  background-color: #f28b82; /* Specific color for HTML tag */
+}
+
+.tag.css {
+  background-color: #aecbfa; /* Specific color for CSS tag */
+}
